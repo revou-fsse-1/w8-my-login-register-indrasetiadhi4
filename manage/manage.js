@@ -23,8 +23,8 @@ function displayData() {
         <td>${data[i].age}</td>
         <td>${data[i].email}</td>
         <td>
-          <button class="edit" type="button" onclick="editData(i)">Edit</button>
-          <button class="delete" type="button" onclick="deleteData(i)">Delete</button>
+          <button class="edit" type="button" onclick="editData(${i})">Edit</button>
+          <button class="delete" type="button" onclick="deleteData(${i})">Delete</button>
         </td>
       </tr>
       `;

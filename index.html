@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="User Management" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Indra Setiadhi P." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/login.js" defer></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <section class="user-form">
+      <h1>Sign In</h1>
+
+      <form id="form" action="#">
+        <div class="form-email">
+          <label for="email">Email</label>
+          <input
+            id="login-email"
+            type="email"
+            name="email"
+            placeholder="example@gmail.com"
+            style="box-shadow: none"
+          />
+          <!-- <p id="display-email" class="display-text error"></p> -->
+        </div>
+
+        <div class="form-password">
+          <label for="password">Password</label>
+          <input
+            id="login-password"
+            type="password"
+            name="password"
+            placeholder="********"
+          />
+          <!-- <p id="display-password" class="display-text error"></p> -->
+        </div>
+
+        <div class="form-button">
+          <button type="submit" onclick="verifyLogin(event)">Sign In</button>
+          <!-- <p id="display-signin" class="display-text text-center error"></p> -->
+        </div>
+      </form>
+
+      <div class="text-center">
+        <p>Don't have an account yet?</p>
+        <a href="/register">Sign Up</a>
+      </div>
+    </section>
+  </body>
+</html>

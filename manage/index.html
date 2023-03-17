@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="User Management" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Indra Setiadhi P." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/manage/manage.js" defer></script>
+    <title>User Management</title>
+  </head>
+
+  <body>
+    <section class="data-management">
+      <h1 id="welcome">Data Management</h1>
+
+      <div class="container">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Email</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <form>
+        <input type="text" id="input-name" placeholder="Name" />
+        <input type="text" id="input-age" placeholder="Age" />
+        <input type="text" id="input-email" placeholder="Email" />
+        <button class="button-add-data" type="button" onclick="addData()">
+          Add Data
+        </button>
+      </form>
+
+      <div class="logout-button">
+        <a href="/">Log Out</a>
+      </div>
+    </section>
+  </body>
+</html>

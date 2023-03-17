@@ -7,7 +7,6 @@
 body {
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
 }
 .user-form {
   position: absolute;
@@ -16,19 +15,6 @@ body {
   flex-direction: column;
   justify-content: center;
   justify-content: space-around;
-
-  /* width: 350px;
-  margin: auto;
-  top: 30%; */
-
-  /* display: table-cell;
-  text-align: center;
-  vertical-align: middle; */
-
-  /* left: 50%;
-  top: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%); */
 }
 
 .user-form form {
@@ -41,11 +27,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* .user-form form > div > label {
-  width: 100%;
-  font-weight: var(--font-weight-medium);
-} */
 
 .logout-button {
   margin-top: 32px;
